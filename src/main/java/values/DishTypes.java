@@ -1,6 +1,8 @@
 
 package values;
 
-public class DishTypes {
-    
+public enum DishTypes {
+    BREAKFAST,
+    LUNCH,
+    DINNER 
 }
