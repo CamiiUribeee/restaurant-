@@ -36,7 +36,6 @@ public class RestaurantApp {
         menu1.addDish(dish2); 
         menu1.addDish(dish3); 
         
-        menu.showMenu(); 
         
         
     }
