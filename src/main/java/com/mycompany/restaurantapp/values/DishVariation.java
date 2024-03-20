@@ -1,5 +1,5 @@
 
-package values;
+package com.mycompany.restaurantapp.values;
 
 public enum DishVariation { //cree un nuevo enum 
     OPTION1, 

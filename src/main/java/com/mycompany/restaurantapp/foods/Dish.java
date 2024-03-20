@@ -1,7 +1,7 @@
 
-package foods;
-import values.DishTypes; 
-import values.DishVariation; 
+package com.mycompany.restaurantapp.foods;
+import com.mycompany.restaurantapp.values.DishTypes;
+import com.mycompany.restaurantapp.values.DishVariation; 
 
 public class Dish {
     DishTypes type; 
