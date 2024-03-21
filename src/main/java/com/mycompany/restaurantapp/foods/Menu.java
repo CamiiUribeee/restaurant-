@@ -16,8 +16,20 @@ public class Menu {   //aqui voy a hacer un array con los objetos que hay en la 
     }
     
     
-    
-    
+    public void showMenu(){
+        System.out.println("***-----Menu-----***");
+        for(DishTypes dishType : DishTypes.values()){
+            System.out.println("---" + dishType + "---");
+            
+        for(Dish dish: dishList){
+            if (dish.getType() == dishType){
+                System.out.println(dish.getName());  
+            }  
+        }    
+            
+        }
+        
+    }
     
     
 }

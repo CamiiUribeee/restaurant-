@@ -26,15 +26,17 @@ public class RestaurantApp {
         
         
         
-        Menu menu1 = new Menu (); 
+        Menu menu1 = new Menu (); //menu1-----
         
         Dish dish1 = new Dish("Huevos pericos", DishTypes.BREAKFAST, 20, 2400, DishVariation.OPTION1);
         Dish dish2 = new Dish("Caldo con arepa", DishTypes.BREAKFAST, 20, 2400, DishVariation.OPTION1);
         Dish dish3 = new Dish("Arroz chino", DishTypes.LUNCH, 20, 2400, DishVariation.OPTION1); 
+        Dish dish4 = new Dish ("Hamburguesa", DishTypes.DINNER, 5, 2500, DishVariation.OPTION1);
         
         menu1.addDish(dish1); 
         menu1.addDish(dish2); 
         menu1.addDish(dish3); 
+        menu1.addDish(dish4); //menu1-----
         
         
         
